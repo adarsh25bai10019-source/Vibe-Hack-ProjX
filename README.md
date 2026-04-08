@@ -51,3 +51,111 @@ The emotional climax of the app. Shows: "Your first ₹1,000 is 7 days away. Her
 ---
 
 ## Project Structure
+
+Vibe-Hack-ProjX/
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Logo.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── InputForm.jsx
+│   │   │   ├── UnderdogScore.jsx
+│   │   │   ├── MonetizationCards.jsx
+│   │   │   ├── EffortIncomeMatrix.jsx
+│   │   │   ├── InvestorMatch.jsx
+│   │   │   ├── PitchCapsule.jsx
+│   │   │   ├── PitchRoom.jsx
+│   │   │   └── FirstDollarScreen.jsx
+│   │   ├── App.jsx
+│   │   └── index.css
+│   └── package.json
+├── server/
+│   ├── index.js
+│   ├── claude.js
+│   └── package.json
+├── .gitignore
+└── README.md
+
+
+
+
+---
+
+## Setup and Installation
+
+### Prerequisites
+- Node.js v18 or above
+- An Anthropic API key from console.anthropic.com
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/adarsh25bai10019-source/Vibe-Hack-ProjX.git
+cd Vibe-Hack-ProjX
+```
+
+### 2. Install dependencies
+```bash
+# Install server dependencies
+cd server
+npm install
+
+# Install client dependencies
+cd ../client
+npm install
+```
+
+### 3. Set up environment variables
+Create a `.env` file inside the `/server` folder:
+
+ANTHROPIC_API_KEY=your_claude_api_key_here
+PORT=3001
+
+
+
+
+### 4. Run the app
+```bash
+# In /server
+npm start
+
+# In /client (new terminal)
+npm run dev
+```
+
+### 5. Open in browser
+
+http://localhost:5173
+
+## How It Works
+
+Student pastes project
+↓
+Claude analyses via API
+↓
+Underdog Score + 3 Monetization Paths
+↓
+Effort vs Income Matrix (visual)
+↓
+Investor Match + Pitch Capsule
+↓
+Virtual Pitch Room (speak to AI investors)
+↓
+First Dollar Screen
+
+---
+
+## The One-Line Pitch
+
+> "We don't just tell students what their project is worth. We tell them who will pay for it, who will fund it, and exactly what to say to both — in 60 seconds."
+
+---
+
+## Team
+
+Built in 8 hours at **VIT Bhopal Vibe Coding Hackathon 2026.**
+
+---
+
+## License
+
+MIT — free to use, build on, and share.
