@@ -2,7 +2,7 @@
 
 > "You're not a student with a project. You're a founder with a product."
 
-Built at **VIT Bhopal Vibe Coding Hackathon 2026** using Antigravity IDE + Claude AI.
+Built at **VIT Bhopal Vibe Coding Hackathon 2026** 
 
 ---
 
